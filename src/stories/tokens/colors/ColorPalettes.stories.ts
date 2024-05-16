@@ -2,6 +2,7 @@ import { StoryObj } from '@storybook/web-components';
 import { PredefinedColorPalette } from './PredefinedColorPalette.ts'
 import { ColorPalette } from './ColorPalette.ts'
 import { html } from 'lit';
+import './color-palettes.css';
 
 const meta = {
     title: 'Tokens',

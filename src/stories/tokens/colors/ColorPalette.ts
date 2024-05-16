@@ -1,5 +1,4 @@
 import { html } from 'lit';
-import './color-palettes.css';
 
 export interface ColorPaletteProps {
     colorNames: string[]
@@ -7,7 +6,7 @@ export interface ColorPaletteProps {
 export const ColorPalette = ({ colorNames }: ColorPaletteProps) => {
     const colors = colorNames.map(colorName => ({ name: colorName, className: colorName.split(' ').reduce((pv, cv) => pv ? `${pv}-${cv.toLocaleLowerCase()}` : cv.toLocaleLowerCase(), '') }));
     return html`
-        <section>
+        <section class="colors">
             <div class="row">
                 ${colors.map((color) =>
                     html`<div class="token">
