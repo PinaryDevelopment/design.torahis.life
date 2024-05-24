@@ -4,7 +4,7 @@ export default create({
     base: 'light',
     brandTitle: 'TIL - Storybook',
     brandUrl: 'https://design.torahis.life',
-    brandImage: '../src/assets/favicon.svg',
+    brandImage: './favicon.svg',
     brandTarget: '_self',
     colorPrimary: '#063a59',
     colorSecondary: '#592506',

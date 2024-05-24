@@ -20,11 +20,12 @@ const preview: Preview = {
       },
     },
   },
+
   decorators: [
     (story, { globals: { theme } }) => {
       switch (theme) {
         case 'side-by-side': {
-          document.querySelector('html')?.setAttribute('data-theme', theme);
+          document.querySelector('html')?.setAttribute('data-theme', 'light');
           return html`
             <style>
               main {
@@ -50,6 +51,7 @@ const preview: Preview = {
       }
     }
   ],
+
   parameters: {
     controls: {
       matchers: {
@@ -58,6 +60,8 @@ const preview: Preview = {
       },
     },
   },
+
+  tags: ["autodocs"]
 };
 
 export default preview;
