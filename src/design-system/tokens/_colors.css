@@ -1,54 +1,53 @@
 /* https://colorffy.com/color-scheme-generator?color=063A59 */
 :root {
-    /* BLUE */
-    --blue-100: #cdd4dc;
-    --blue-200: #9daab9;
-    --blue-300: #6e8398;
-    --blue-400: #3f5d78;
-    --blue-500: #063a59;
-    --blue-600: #0d2f47;
-    --blue-700: #0f2536;
-    --blue-800: #0e1b26;
-    --blue-900: #091117;
+  /* BLUE */
+  --blue-100: #cdd4dc;
+  --blue-200: #9daab9;
+  --blue-300: #6e8398;
+  --blue-400: #3f5d78;
+  --blue-500: #063a59;
+  --blue-600: #0d2f47;
+  --blue-700: #0f2536;
+  --blue-800: #0e1b26;
+  --blue-900: #091117;
 
-    /* BROWN */
-    --brown-100: #dfd0c8;
-    --brown-200: #bfa293;
-    --brown-300: #9e7661;
-    --brown-400: #7c4d33;
-    --brown-500: #592506;
-    --brown-600: #481f06;
-    --brown-700: #381a05;
-    --brown-800: #281404;
-    --brown-900: #1a0c02;
+  /* BROWN */
+  --brown-100: #dfd0c8;
+  --brown-200: #bfa293;
+  --brown-300: #9e7661;
+  --brown-400: #7c4d33;
+  --brown-500: #592506;
+  --brown-600: #481f06;
+  --brown-700: #381a05;
+  --brown-800: #281404;
+  --brown-900: #1a0c02;
 
-    /* ORANGE */
-    --orange-100: #ffe6d3;
-    --orange-200: #ffcea7;
-    --orange-300: #ffb57c;
-    --orange-400: #fc9c51;
-    --orange-500: #f58320;
-    --orange-600: #c0681e;
-    --orange-700: #8d4e1b;
-    --orange-800: #5d3516;
-    --orange-900: #311e0f;
+  /* ORANGE */
+  --orange-100: #ffe6d3;
+  --orange-200: #ffcea7;
+  --orange-300: #ffb57c;
+  --orange-400: #fc9c51;
+  --orange-500: #f58320;
+  --orange-600: #c0681e;
+  --orange-700: #8d4e1b;
+  --orange-800: #5d3516;
+  --orange-900: #311e0f;
 
-    /* NEUTRAL */
-    --neutral-0: #ffffff;
-    --neutral-100: #e6e6e6;
-    --neutral-200: #cecece;
-    --neutral-300: #b6b6b6;
-    --neutral-400: #9f9f9f;
-    --neutral-500: #888888;
-    --neutral-600: #6b6b6b;
-    --neutral-700: #505050;
-    --neutral-800: #363636;
-    --neutral-900: #1e1e1e;
-    --neutral-1000: #000000;
-
-    --brand-primary-color: var(--blue-500);
-    --brand-primary-light-color: var(--blue-200);
-    --brand-secondary-color: var(--brown-500);
-    --brand-secondary-light-color: var(--brown-200);
-    --brand-accent-color: var(--orange-500);
+  /* NEUTRAL */
+  --neutral-0: #fff;
+  --neutral-100: #e6e6e6;
+  --neutral-200: #cecece;
+  --neutral-300: #b6b6b6;
+  --neutral-400: #9f9f9f;
+  --neutral-500: #888;
+  --neutral-600: #6b6b6b;
+  --neutral-700: #505050;
+  --neutral-800: #363636;
+  --neutral-900: #1e1e1e;
+  --neutral-1000: #000;
+  --brand-primary-color: var(--blue-500);
+  --brand-primary-light-color: var(--blue-200);
+  --brand-secondary-color: var(--brown-500);
+  --brand-secondary-light-color: var(--brown-200);
+  --brand-accent-color: var(--orange-500);
 }

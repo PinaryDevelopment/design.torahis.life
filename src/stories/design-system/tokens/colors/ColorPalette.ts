@@ -11,7 +11,7 @@ export const ColorPalette = ({ colorNames }: ColorPaletteProps) => {
                 ${colors.map((color) =>
                     html`<div class="token">
                             <span class="small-circle ${color.className}"></span>
-                            <label>${color.name}</label>
+                            <label>--${color.name.split(' ').map(str => str.toLocaleLowerCase()).join('-')}</label>
                         </div>` )}
             </div>
         </section>

@@ -1,21 +1,29 @@
 :root {
-    --font-xs: 0.64rem;
-    --font-sm: 0.8rem;
-    --font-rg : 1rem;
-    --font-lg: 1.25rem;
-    --font-xl: 1.563rem;
-    --font-xxl: 1.953rem;
-    --font-xxxl: 2.441rem;
-    --font-xxxxl: 3.052rem;
-    --font-xxxxxl: 3.815rem;
+  --font-xs: 0.64rem;
+  --font-sm: 0.8rem;
+  --font-rg: 1rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.563rem;
+  --font-xxl: 1.953rem;
+  --font-xxxl: 2.441rem;
+  --font-xxxxl: 3.052rem;
+  --font-xxxxxl: 3.815rem;
 }
 
 * {
-    font-family: Oxygen, sans-serif;
-    font-size: 16px;
+  --font--weight-thin: 100;
+  --font--weight-rg: 400;
+  --font--weight-bold: 700;
+
+  font-family: Oxygen, sans-serif;
+  font-size: 16px;
 }
 
 *[dir='rtl'] * {
-    font-family: Bellefair, serif;
-    font-size: 20px;
+  --font--weight-thin: 400;
+  --font--weight-rg: 400;
+  --font--weight-bold: 400;
+
+  font-family: Bellefair, serif;
+  font-size: 20px;
 }

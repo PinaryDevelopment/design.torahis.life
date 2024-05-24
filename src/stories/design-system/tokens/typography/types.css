@@ -1,0 +1,71 @@
+/*
+    https://typescale.com/
+    Body size: 16px;
+    Scale: 1.250
+*/
+
+.types-area {
+  display: flex;
+}
+
+.types-area > section {
+  flex: 0 0 50%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.xxxxxl,
+.xxxxl,
+.xxxl,
+.xxl,
+.xl,
+.lg,
+.rg,
+.sm,
+.xs {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.xxxxxl {
+  background-color: transparent;
+  font-size: var(--font-xxxxxl);
+}
+
+.xxxxl {
+  font-size: var(--font-xxxxl);
+}
+
+.xxxl {
+  font-size: var(--font-xxxl);
+}
+
+.xxl {
+  font-size: var(--font-xxl);
+}
+
+.xl {
+  font-size: var(--font-xl);
+}
+
+.lg {
+  font-size: var(--font-lg);
+}
+
+.rg {
+  font-size: var(--font-rg);
+}
+
+.sm {
+  font-size: var(--font-sm);
+}
+
+.xs {
+  font-size: var(--font-xs);
+}
+
+section.types[dir='rtl'] {
+  margin-top: -0.7rem;
+}

@@ -13,7 +13,7 @@ export const PredefinedColorPalette = ({ colorName }: PredefinedColorPaletteProp
                 ${hues.map((hue) =>
                     html`<div class="token">
                             <span class="small-circle ${colorClassName}-${hue}"></span>
-                            <label>${hue}</label>
+                            <label>--${colorClassName}-${hue}</label>
                         </div>` )}
             </div>
         </section>
