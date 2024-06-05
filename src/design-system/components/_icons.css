@@ -1,0 +1,30 @@
+:host {
+  height: 1em;
+  width: 1em;
+}
+
+svg {
+  height: 1em;
+  width: 1em;
+}
+
+:host(.muted) svg * {
+  fill: var(--neutral-400);
+}
+
+@keyframes pd-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.pd-spin {
+  animation-duration: var(--fa-animation-duration, 2s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-name: pd-spin;
+  animation-timing-function: var(--fa-animation-timing, linear);
+}

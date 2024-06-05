@@ -1,37 +1,10 @@
 /* https://colorffy.com/color-scheme-generator?color=063A59 */
 :root {
-  /* BLUE */
-  --blue-100: #cdd4dc;
-  --blue-200: #9daab9;
-  --blue-300: #6e8398;
-  --blue-400: #3f5d78;
-  --blue-500: #063a59;
-  --blue-600: #0d2f47;
-  --blue-700: #0f2536;
-  --blue-800: #0e1b26;
-  --blue-900: #091117;
-
-  /* BROWN */
-  --brown-100: #dfd0c8;
-  --brown-200: #bfa293;
-  --brown-300: #9e7661;
-  --brown-400: #7c4d33;
-  --brown-500: #592506;
-  --brown-600: #481f06;
-  --brown-700: #381a05;
-  --brown-800: #281404;
-  --brown-900: #1a0c02;
-
-  /* ORANGE */
-  --orange-100: #ffe6d3;
-  --orange-200: #ffcea7;
-  --orange-300: #ffb57c;
-  --orange-400: #fc9c51;
-  --orange-500: #f58320;
-  --orange-600: #c0681e;
-  --orange-700: #8d4e1b;
-  --orange-800: #5d3516;
-  --orange-900: #311e0f;
+  --brand-primary-color: #063a59;
+  --brand-primary-light-color: var(--blue-200);
+  --brand-secondary-color: #592506;
+  --brand-secondary-light-color: var(--brown-200);
+  --brand-accent-color: #f58320;
 
   /* NEUTRAL */
   --neutral-0: #fff;
@@ -45,9 +18,37 @@
   --neutral-800: #363636;
   --neutral-900: #1e1e1e;
   --neutral-1000: #000;
-  --brand-primary-color: var(--blue-500);
-  --brand-primary-light-color: var(--blue-200);
-  --brand-secondary-color: var(--brown-500);
-  --brand-secondary-light-color: var(--brown-200);
-  --brand-accent-color: var(--orange-500);
+
+  /* BLUE */
+  --blue-100: color-mix(in srgb, var(--blue-500) 20%, var(--neutral-0));
+  --blue-200: color-mix(in srgb, var(--blue-500) 40%, var(--neutral-0));
+  --blue-300: color-mix(in srgb, var(--blue-500) 60%, var(--neutral-0));
+  --blue-400: color-mix(in srgb, var(--blue-500) 80%, var(--neutral-0));
+  --blue-500: var(--brand-primary-color);
+  --blue-600: color-mix(in srgb, var(--blue-500) 80%, var(--neutral-1000));
+  --blue-700: color-mix(in srgb, var(--blue-500) 60%, var(--neutral-1000));
+  --blue-800: color-mix(in srgb, var(--blue-500) 40%, var(--neutral-1000));
+  --blue-900: color-mix(in srgb, var(--blue-500) 20%, var(--neutral-1000));
+
+  /* BROWN */
+  --brown-100: color-mix(in srgb, var(--brown-500) 20%, var(--neutral-0));
+  --brown-200: color-mix(in srgb, var(--brown-500) 40%, var(--neutral-0));
+  --brown-300: color-mix(in srgb, var(--brown-500) 60%, var(--neutral-0));
+  --brown-400: color-mix(in srgb, var(--brown-500) 80%, var(--neutral-0));
+  --brown-500: var(--brand-secondary-color);
+  --brown-600: color-mix(in srgb, var(--brown-500) 80%, var(--neutral-1000));
+  --brown-700: color-mix(in srgb, var(--brown-500) 60%, var(--neutral-1000));
+  --brown-800: color-mix(in srgb, var(--brown-500) 40%, var(--neutral-1000));
+  --brown-900: color-mix(in srgb, var(--brown-500) 20%, var(--neutral-1000));
+
+  /* ORANGE */
+  --orange-100: color-mix(in srgb, var(--orange-500) 20%, var(--neutral-0));
+  --orange-200: color-mix(in srgb, var(--orange-500) 40%, var(--neutral-0));
+  --orange-300: color-mix(in srgb, var(--orange-500) 60%, var(--neutral-0));
+  --orange-400: color-mix(in srgb, var(--orange-500) 80%, var(--neutral-0));
+  --orange-500: var(--brand-accent-color);
+  --orange-600: color-mix(in srgb, var(--orange-500) 80%, var(--neutral-1000));
+  --orange-700: color-mix(in srgb, var(--orange-500) 60%, var(--neutral-1000));
+  --orange-800: color-mix(in srgb, var(--orange-500) 40%, var(--neutral-1000));
+  --orange-900: color-mix(in srgb, var(--orange-500) 20%, var(--neutral-1000));
 }

@@ -11,6 +11,9 @@ export class PdButtonElement extends LitElement {
   @property({ type: String, reflect: true })
   text = ''
 
+  @property({ type: String, reflect: true })
+  type = 'button'
+
   @property({ type: String, reflect: false })
   classes = ['up']
 
@@ -21,7 +24,8 @@ export class PdButtonElement extends LitElement {
     return html`
     <button
       class="${this.classes.join(' ')}"
-      disabled="${this.disabled === undefined ? nothing : ''}"
+      type="${this.type}"
+      ?disabled="${this.disabled === ''}"
       @mousedown="${this.onButtonPress}"
       @mouseup="${this.onButtonRelease}"
       @focus="${this.onButtonFocus}"
@@ -29,7 +33,9 @@ export class PdButtonElement extends LitElement {
       @keydown="${this.onButtonKeydown}"
       @keyup="${this.onButtonKeyup}"
     >
+      <slot name="start"></slot>
       ${this.text}
+      <slot name="end"></slot>
     </button>
     `
   }

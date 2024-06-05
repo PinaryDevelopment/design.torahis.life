@@ -64,6 +64,10 @@ button[disabled]:hover {
   background-color: var(--_button-color);
 }
 
+::slotted(*[slot='end']) {
+  padding-inline-start: 5px;
+}
+
 /* audio controls
 .controls button {
   align-items: center;

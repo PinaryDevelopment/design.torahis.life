@@ -1,13 +1,11 @@
 @media (prefers-color-scheme: dark) {
-  * {
+  html {
     background-color: var(--neutral-900);
     color: var(--neutral-100);
   }
 }
 
-*[data-theme='dark'] {
-  * {
-    background-color: var(--neutral-900);
-    color: var(--neutral-100);
-  }
+[data-theme='dark'] {
+  background-color: var(--neutral-900);
+  color: var(--neutral-100);
 }
